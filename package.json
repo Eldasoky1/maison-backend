@@ -1,0 +1,18 @@
+{
+  "name": "maison-backend",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Maison Supabase database, RLS policies, seed data, and Edge Functions.",
+  "scripts": {
+    "db:start": "npx supabase start",
+    "db:reset": "npx supabase db reset",
+    "db:push": "npx supabase db push",
+    "db:test": "npx supabase test db",
+    "test:integrity": "node --test test-backend.mjs test-tools-and-functions.mjs",
+    "functions:serve": "npx supabase functions serve",
+    "functions:deploy": "npx supabase functions deploy"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

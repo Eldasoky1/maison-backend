@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" width="1600" height="1200">
+  <defs>
+    <linearGradient id="warmWash" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF9F5"/>
+      <stop offset="100%" stop-color="#F0EEE6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1200" fill="url(#warmWash)"/>
+  
+  <!-- Subtle architectural grid lines -->
+  <line x1="160" y1="120" x2="1440" y2="120" stroke="#E8E3D6" stroke-width="1"/>
+  <line x1="160" y1="1080" x2="1440" y2="1080" stroke="#E8E3D6" stroke-width="1"/>
+  <line x1="160" y1="120" x2="160" y2="1080" stroke="#E8E3D6" stroke-width="1"/>
+  <line x1="1440" y1="120" x2="1440" y2="1080" stroke="#E8E3D6" stroke-width="1"/>
+
+  <!-- Center artwork frame -->
+  <rect x="240" y="200" width="1120" height="800" fill="#FFFFFF" stroke="#E8E3D6" stroke-width="1.5" rx="8"/>
+
+  <!-- Architectural elevation line drawing -->
+  <g stroke="#3D3D3A" stroke-width="1.5" fill="none" opacity="0.85">
+    <rect x="360" y="340" width="880" height="520"/>
+    <line x1="360" y1="510" x2="1240" y2="510" stroke-dasharray="4 4"/>
+    <line x1="360" y1="680" x2="1240" y2="680" stroke-dasharray="4 4"/>
+    
+    <!-- Colonloaded bays & windows -->
+    <rect x="420" y="380" width="100" height="180" rx="4" stroke="#B08D4F"/>
+    <rect x="580" y="380" width="100" height="180" rx="4" stroke="#B08D4F"/>
+    <rect x="740" y="380" width="120" height="240" rx="4" stroke="#A8502F"/>
+    <rect x="920" y="380" width="100" height="180" rx="4" stroke="#B08D4F"/>
+    <rect x="1080" y="380" width="100" height="180" rx="4" stroke="#B08D4F"/>
+
+    <!-- Balcony hairlines -->
+    <line x1="400" y1="560" x2="1200" y2="560" stroke="#B08D4F" stroke-width="2"/>
+    <line x1="400" y1="568" x2="1200" y2="568" stroke="#E8E3D6"/>
+  </g>
+
+  <!-- Typography -->
+  <text x="800" y="940" text-anchor="middle" font-family="Newsreader, Georgia, serif" font-size="34" fill="#141413" letter-spacing="-0.01em">MR-106</text>
+  <text x="800" y="980" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="16" fill="#6B6A64" letter-spacing="0.04em">PRIMARY EXTERIOR RESIDENCE · COVER</text>
+  
+  <text x="800" y="1030" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="13" fill="#B08D4F" letter-spacing="0.1em">MAISON PRIVÉ ARCHITECTURE</text>
+</svg>
